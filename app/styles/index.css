@@ -195,6 +195,11 @@ form input {
   width: 252px;
 } */
 
+#btn-submit-form {
+  margin-left: 8px;  
+}
+
+
 ::placeholder {
   color: #ffffff;
 }
