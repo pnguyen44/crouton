@@ -4,7 +4,8 @@ $croutonGrey: #645f5f;
 $croutonOrange: #ffaa81;
 $croutonOff: #e5e9e1; */
 
-.nav-items {
+.nav-bar {
+  padding-top: 30px;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
@@ -105,19 +106,27 @@ span{
   background-color:  #645f5f;
 }
 
-.logo{
-  float: left;
+
+li {
+  display: inline;
+  padding: 20px;
+  margin-left: -5px;
 }
 
-/* .nav ul {
-  display: inline-block;
-  float: left;
-} */
+
+ul {
+  display: inline;
+  list-style: none;
+  /* float: left; */
+}
+
+
+a {
+  text-decoration: none;
+}
 img{
   width: 15%;
   height: 15%;
-  /* float: left; */
-  /* display: inline; */
 }
 
 .footer img{
