@@ -99,14 +99,14 @@ span{
 .header-detail{
   position: absolute;
   padding-right: 100px;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 #image{
   display: inline;
   position: relative;
   top: -100px;
     left: 536px;
-  /* z-index: 1; */
+  z-index: 1;
   width: 50%;
   height: 50%;
 }
@@ -129,7 +129,7 @@ span{
 /* } */
 
 #about {
-  margin-top: -250px;
+  /* margin-top: -250px; */
   background-color:  #e5e9e1;;
   padding-top: 154px;
   padding-bottom: 50px;
@@ -182,7 +182,7 @@ input{
 }
 
 #msg{
-  width: 530px;
+  width: 100%;
 }
 
 form .input-inline {
