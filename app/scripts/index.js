@@ -41,4 +41,11 @@ console.log(data)
 }
 
 
+const scrollToAbout = function(){
+  const target = document.getElementById("about");
+  target.scrollIntoView();
+}
+
 document.getElementById('btn-submit-form').addEventListener('click', postRequest)
+
+document.getElementById('btn-discover-more').addEventListener('click', scrollToAbout)
