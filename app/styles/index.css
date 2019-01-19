@@ -1,0 +1,33 @@
+/* $mainFontFamily: font-family: 'Poppins', sans-serif;
+$croutonWhite: #ffffff;
+$croutonGrey: #645f5f;
+$croutonOrange: #ffaa81;
+$croutonOff: #e5e9e1; */
+
+.nav-items {
+  font-size: 18px;
+}
+
+h3{
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1{
+  font-size: 60px;
+  line-height:68px;
+}
+
+h2 {
+  line-height: 44px;
+}
+form{
+font-size: 18px;
+}
+
+.header{
+  border-style: solid
+  color: red;
+  background-color: #ffaa81;
+}
