@@ -6,37 +6,63 @@ $croutonOff: #e5e9e1; */
 
 .nav-items {
   font-size: 18px;
-  font-family: 'Poppins, extra-bold';
-}
-
-h3{
-  color: red;
-  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
 h1{
+  font-family: 'Poppins', sans-serif;
   font-size: 60px;
   line-height:68px;
+  font-weight: 600;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 0.1em;
 }
 
 h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 44px;
 }
-form{
-font-size: 18px;
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 35px;
 }
 
+form{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.fine-print{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
 .header{
   border-style: solid
   color: red;
   background-color: #ffaa81;
 }
 
-button {
-  outline: none;
-  border: none;
-}
+
 input,textarea{
   outline: none;
   border: none;
