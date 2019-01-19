@@ -106,10 +106,25 @@ span{
 }
 
 
-input,textarea{
-  color: #ffffff;
+input{
+  display: inline;
   outline: none;
   border: none;
   background: transparent;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #e5e9e1;
+  margin-bottom: 20px;
+}
+
+#msg{
+  width: 530px;
+}
+
+form .input-inline {
+  display: inline;
+  margin-right: 10px;
+  width: 252px;
+}
+
+::placeholder {
+  color: #ffffff;
 }
