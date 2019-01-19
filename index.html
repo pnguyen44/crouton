@@ -106,21 +106,24 @@
       </div>
       <div class="col-sm-6 col-md-6 col-sm-lg-6">
         <form>
-          <div class="input-inline">
+          <div class="col-md-6">
             <!-- <label for="name">Name:</label> -->
-            <input class="input-inline"type="text" id="name" placeholder="your name" name="user_name">
+            <input type="text" id="name" placeholder="your name" name="user_name">
           </div>
-          <div class="input-inline">
+          <div class="col-md-6">
             <!-- <label for="mail">E-mail:</label> -->
-            <input class="input-inline" type="email" id="email" placeholder="your email" name="user_mail">
+            <input type="email" id="email" placeholder="your email" name="user_mail">
           </div>
-          <div>
+          <div class="col-md-12">
             <!-- <label for="msg">Message:</label> -->
             <input id="msg" placeholder="your message" name="user_message"></input>
           </div>
+          <!-- <div class="row">
+          <div class="col-md-12"> -->
           <button id="btn-submit-form" type="button">Get in touch &rarr;</button>
+          <!-- </div> -->
+          <!-- </div> -->
         </form>
-        <div id="output-box"></div>
       </div>
       <!-- <div class="col-md-6"> -->
       <!-- <img src="app/images/img_logo-crouton-grey.png" alt="crouton-logo"> -->
@@ -133,6 +136,7 @@
       </div>
     </div>
   </div>
+  
   <script type="text/javascript" src="app/scripts/index.js"></script>
 </body>
 </html>

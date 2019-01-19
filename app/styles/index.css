@@ -185,11 +185,15 @@ input{
   width: 100%;
 }
 
-form .input-inline {
+form input {
+  width: 100%;
+}
+
+/* form .input-inline {
   display: inline;
   margin-right: 10px;
   width: 252px;
-}
+} */
 
 ::placeholder {
   color: #ffffff;
