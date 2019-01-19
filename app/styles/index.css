@@ -88,15 +88,50 @@ span{
   padding-left: 50px;
 }
 .header{
+  /* position: absolute; */
   width: 100%;
+
   background-color: #ffaa81;
   padding-top: 200px;
   padding-bottom: 50px;
 }
 
+.header-detail{
+  position: absolute;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+#image{
+  display: inline;
+  position: relative;
+  top: -100px;
+    left: 536px;
+  /* z-index: 1; */
+  width: 50%;
+  height: 50%;
+}
+/* #myDIV { */
+  /* position: absolute; */
+  /* width: 300px; */
+  /* height: 150px; */
+  /* background-color: lightblue; */
+  /* border: 1px solid black; */
+/* } */
+
+/* .image { */
+  /* position: relative; */
+  /* top: 130px; */
+  /* left: 30px; */
+  /* width: 300px; */
+  /* height: 150px; */
+  /* background-color: coral; */
+  /* border: 1px solid black; */
+/* } */
+
 .about {
+  margin-top: -250px;
   background-color:  #e5e9e1;;
-  padding-top: 100px;
+  padding-top: 154px;
   padding-bottom: 50px;
 }
 
@@ -124,7 +159,9 @@ ul {
 a {
   text-decoration: none;
 }
-img{
+
+
+.nav-bar img{
   width: 15%;
   height: 15%;
 }
