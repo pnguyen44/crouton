@@ -57,9 +57,18 @@ form{
   font-size: 12px;
 }
 .header{
-  border-style: solid
-  color: red;
-  background-color: #ffaa81;
+  width: 100%;
+  background: #ffaa81;
+}
+.wrap {
+  padding: 0px 200px 0px 200px;
+}
+.about {
+  background-color:  #e5e9e1;;
+}
+
+.footer{
+  background-color:  #645f5f;
 }
 
 
