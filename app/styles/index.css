@@ -105,6 +105,26 @@ span{
   background-color:  #645f5f;
 }
 
+.logo{
+  float: left;
+}
+
+/* .nav ul {
+  display: inline-block;
+  float: left;
+} */
+img{
+  width: 15%;
+  height: 15%;
+  /* float: left; */
+  /* display: inline; */
+}
+
+.footer img{
+  width: 8%;
+  height: 8%;
+  margin-right: 25px;
+}
 
 input{
   display: inline;
