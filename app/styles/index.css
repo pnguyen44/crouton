@@ -2,7 +2,7 @@ body {
 color: #645f5f;
 }
 
-a:link {
+a:link, .grey-color {
   color: #645f5f;
 }
 
