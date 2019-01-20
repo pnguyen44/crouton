@@ -1,3 +1,17 @@
+.crouton-white {
+  color: #ffffff;
+}
+.crouton-grey {
+  color: #645f5f;
+}
+.crouton-orange{
+   color: #ffaa81;
+}
+.crouton-off{
+  color: #e5e9e1;
+  }
+
+
 body {
 color: #645f5f;
 }
@@ -66,13 +80,13 @@ form{
   padding-top: 100px;
 }
 
-h2:nth-child(1), h1:nth-child(1){
+/* h2:nth-child(1), h1:nth-child(1){
   color: #ffffff;
-}
+} */
 
-.footer h1:nth-child(2), .footer button{
+/* .footer h1:nth-child(2), .footer button{
   color: #ffaa81;
-}
+} */
 
 a{
   color: black;
@@ -179,6 +193,7 @@ form input {
 }
 
 #btn-submit-form {
+  color:  #ffaa81;
   margin-left: 8px;
 }
 
