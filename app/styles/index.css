@@ -105,9 +105,8 @@ span{
   margin-bottom: 100px;
 }
 #image{
-  /* display: inline; */
   position: absolute;
-
+  top: 50px;
   z-index: 2;
   width: 100%;
 }
