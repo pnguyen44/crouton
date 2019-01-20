@@ -80,14 +80,6 @@ form{
   padding-top: 100px;
 }
 
-/* h2:nth-child(1), h1:nth-child(1){
-  color: #ffffff;
-} */
-
-/* .footer h1:nth-child(2), .footer button{
-  color: #ffaa81;
-} */
-
 a{
   color: black;
 }
@@ -154,7 +146,6 @@ li {
 ul {
   display: inline;
   list-style: none;
-  /* float: left; */
 }
 
 
