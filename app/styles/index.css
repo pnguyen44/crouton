@@ -1,16 +1,18 @@
 .crouton-white {
   color: #ffffff;
 }
+
 .crouton-grey {
   color: #645f5f;
 }
+
 .crouton-orange{
    color: #ffaa81;
 }
+
 .crouton-off{
   color: #e5e9e1;
-  }
-
+}
 
 body {
 color: #645f5f;
@@ -27,7 +29,6 @@ a:link, .grey-color {
   font-weight: 600;
   background-color: #ffaa81;
 }
-
 
 h3{
   font-family: 'Poppins', sans-serif;
@@ -88,7 +89,6 @@ span{
   color: #ffffff;
 }
 
-
 .col-left {
   padding-right: 188px;
 }
@@ -96,10 +96,10 @@ span{
 .col-right{
   padding-left: 50px;
 }
+
 .header{
   /* position: absolute; */
   width: 100%;
-
   background-color: #ffaa81;
   padding-top: 294px;
   padding-bottom: 50px;
@@ -111,6 +111,7 @@ span{
   padding-right: 82px;
   margin-bottom: 30px;
 }
+
 #image{
   position: absolute;
   top: -58px;
@@ -135,13 +136,11 @@ span{
   background-color:  #645f5f;
 }
 
-
 li {
   display: inline;
   padding: 20px;
   margin-left: -5px;
 }
-
 
 ul {
   display: inline;
@@ -152,7 +151,6 @@ ul {
 a {
   text-decoration: none;
 }
-
 
 .nav-bar img{
   width: 15%;
