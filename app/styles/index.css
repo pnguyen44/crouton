@@ -130,7 +130,7 @@ span{
   padding-bottom: 127px;
 }
 
-.footer{
+#footer{
   padding-top: 60px;
   padding-bottom: 100px;
   background-color:  #645f5f;
@@ -157,7 +157,7 @@ a {
   height: 15%;
 }
 
-.footer img{
+#footer img{
   width: 8%;
   height: 8%;
   margin-right: 25px;
