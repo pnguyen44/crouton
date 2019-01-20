@@ -4,6 +4,14 @@ $croutonGrey: #645f5f;
 $croutonOrange: #ffaa81;
 $croutonOff: #e5e9e1; */
 
+body {
+color: #645f5f;
+}
+
+a:link {
+  color: #645f5f;
+}
+
 .nav-bar {
   padding-top: 30px;
   font-size: 18px;
