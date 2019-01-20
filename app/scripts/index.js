@@ -2,6 +2,12 @@
 
 const appId = 'pn-4756488289'
 
+const clearForm = function() {
+  document.getElementById('name').value='';
+  document.getElementById('email').value='';
+  document.getElementById('msg').value='';
+}
+
 const postRequest = function () {
   const name = document.getElementById("name").value
   const email = document.getElementById("email").value
@@ -28,16 +34,16 @@ const postRequest = function () {
 
   xhr.onreadystatechange = function() {
       if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-          // console.log(xhr.responseText)
+        clearForm()
       }
   }
 }
-
 
 const scrollToAbout = function(){
   const target = document.getElementById("about");
   target.scrollIntoView();
 }
+
 
 document.getElementById('btn-submit-form').addEventListener('click', postRequest)
 
