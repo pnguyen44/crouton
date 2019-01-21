@@ -36,7 +36,7 @@ const postRequest = function () {
   xhr.onreadystatechange = function(e) {
       if (this.status !== 200) return displayMessage('Request failed');
       if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-        displayMessage('Request was successfully')
+        displayMessage('Request was successful')
         clearForm()
       }
   }
