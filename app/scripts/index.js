@@ -25,7 +25,8 @@ const postRequest = function () {
   xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(data);
 
-  xhr.onreadystatechange = function() {
+  xhr.onreadystatechange = function(e) {
+      // if (e) return console.log('error is:',e)
       if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
         clearForm()
       }
