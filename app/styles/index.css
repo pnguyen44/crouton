@@ -60,6 +60,10 @@ button {
   letter-spacing: 0.1em;
   background-color: Transparent;
 }
+#btn-discover-more{
+  padding-top: 15px;
+  padding-left: 3px;  
+}
 
 h2 {
   font-family: 'Poppins', sans-serif;
