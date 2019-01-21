@@ -6,6 +6,14 @@ const clearForm = function() {
   document.getElementById('msg').value='';
 }
 
+const displayMessage = function(message) {
+  document.getElementById("form-message").innerHTML = message;
+
+  setTimeout(function(){
+    document.getElementById("form-message").innerHTML = '';
+}, 2000);
+}
+
 const postRequest = function () {
   const appId = 'pn-4756488289'
   const name = document.getElementById("name").value
@@ -26,8 +34,9 @@ const postRequest = function () {
   xhr.send(data);
 
   xhr.onreadystatechange = function(e) {
-      // if (e) return console.log('error is:',e)
+      if (this.status !== 200) return displayMessage('Error on request');
       if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+        displayMessage('Request completed')
         clearForm()
       }
   }
