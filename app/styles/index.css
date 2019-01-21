@@ -67,12 +67,7 @@ p{
   line-height: 35px;
 }
 
-form{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  margin-top: 55px;
-}
+
 .fine-print{
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -175,6 +170,18 @@ input{
 
 #msg{
   width: 100%;
+}
+#form-message{
+  color: #ffffff;
+  font-size:18px;
+  padding-left: 16px;
+}
+
+form{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 25px;
 }
 
 form input {
