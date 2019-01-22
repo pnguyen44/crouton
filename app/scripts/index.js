@@ -30,14 +30,15 @@ const postRequest = function () {
   const xhr = new XMLHttpRequest();
   const url='https://ihs1nx5rt6.execute-api.us-east-1.amazonaws.com/crouton';
   xhr.open("POST", url,true);
-  xhr.setRequestHeader("Content-Type", "application/json");
+  xhr.setRequestHeader("Content-Type", "application/jso");
   xhr.send(data);
 
   xhr.onreadystatechange = function(e) {
-      if (this.status !== 200) return displayMessage('Request failed');
       if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
         displayMessage('Request was successful')
         clearForm()
+      } else {
+        displayMessage('Request failed');
       }
   }
 }
