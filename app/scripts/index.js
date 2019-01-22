@@ -1,5 +1,10 @@
 'use strict'
 
+const scrollToFooter = function(){
+  const target = document.getElementById("footer");
+  target.scrollIntoView();
+}
+
 const clearForm = function() {
   document.getElementById('name').value='';
   document.getElementById('email').value='';
@@ -41,11 +46,6 @@ const postRequest = function () {
         displayMessage('Request failed');
       }
   }
-}
-
-const scrollToFooter = function(){
-  const target = document.getElementById("footer");
-  target.scrollIntoView();
 }
 
 
