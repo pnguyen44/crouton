@@ -35,7 +35,7 @@ const postRequest = function () {
   const xhr = new XMLHttpRequest();
   const url='https://ihs1nx5rt6.execute-api.us-east-1.amazonaws.com/crouton';
   xhr.open("POST", url,true);
-  xhr.setRequestHeader("Content-Type", "application/jso");
+  xhr.setRequestHeader("Content-Type", "application/json");
   xhr.send(data);
 
   xhr.onreadystatechange = function(e) {
